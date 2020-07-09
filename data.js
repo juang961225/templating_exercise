@@ -61,7 +61,29 @@ const pageData = {
     },
     {
       component: "studentCustomComponent",
-      contents: "this is a student made test component"
+      contents: "this is a student made test component",
+      
+        displayName: "Juan Guillermo Galvez Valencia",
+        userName: "@juang961225",
+        image: "../juang961225/89352587_10220126186412259_8108744250205667328_n.jpg",
+        role: "developer",
+        socialMedia: [
+        {
+            name: "Github",
+            icon: "fa-github",
+            link: "https://github.com/juang961225"
+        },
+        {
+            name: "Twitter",
+            icon: "fa-twitter-square",
+            link: "https://twitter.com/Juan73445582"
+        },
+        {
+            name: "Instagram",
+            icon: "fa-instagram",
+            link: "https://www.instagram.com/juang961225/?hl=es-la"
+        },
+        ]
     },
   ],
   listeners: [
