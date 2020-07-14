@@ -3,6 +3,7 @@ import { nodeGalleryComp, templatedGalleryComp } from "./components/gallery.js";
 import { defaultComp } from "./components/default.js";
 import { nodeImageComp, templatedImageComp } from "./components/image.js"; // not used outside other components
 import { textImagenBlockComp } from './components/textImageBlock.js' ;
+import { studentComponent } from './components/studentCustomComponent.js';
 import { pageData} from "./data.js";
 
 /**
@@ -13,6 +14,7 @@ const components = {
   "temp_gallery": templatedGalleryComp,
   "node_gallery": nodeGalleryComp,
   "textImageBlock": textImagenBlockComp,
+  "studentCustomComponent":studentComponent,
   "default": defaultComp
 }
 

@@ -65,7 +65,7 @@ const pageData = {
       
         displayName: "Juan Guillermo Galvez Valencia",
         userName: "@juang961225",
-        image: "../juang961225/89352587_10220126186412259_8108744250205667328_n.jpg",
+        image: "./assets/cat.jpg",
         role: "developer",
         socialMedia: [
         {
